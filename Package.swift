@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "Fluent", targets: ["Fluent"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.12.0"),
+       .package(name: "fluent", url: "https://github.com/vapor/fluent0kit.git", .branch("async-await")),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.39.0"),
     ],
     targets: [
